@@ -8,7 +8,10 @@
   text-align: center;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
 }
-
+.new-expense__control input:focus {
+  cursor: text;
+  /* width: 100%; */
+}
 .new-expense button {
   font: inherit;
   cursor: pointer;
@@ -18,7 +21,6 @@
   color: white;
   border-radius: 12px;
   margin-right: 1rem;
-  cursor: pointer;
   transition: 0.3s;
 }
 
@@ -39,6 +41,11 @@
   background-color: #ddb3f8;
 }
 
+.new-expense input.inValid {
+  background-color: #ef5350;
+  border-color: #ef5350;
+}
+
 @media (max-width: 580px) {
   .new-expense__control label {
     font-size: 0.8rem;
@@ -48,5 +55,16 @@
   }
   .new-expense button {
     padding: 0.5rem 1rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .new-expense__control input {
+    width: max-content;
+    padding: 0.1rem;
+  }
+  .new-expense button {
+    margin-right: 0;
+    margin: 0 0.2rem;
   }
 }
