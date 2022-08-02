@@ -9,7 +9,7 @@ Build with React.js
 
 ## Live Demo 🌐
 
-**You Can See The `Mapp` Live On:** [Here](https://expenses-tracker-reactjs-v1.netlify.app/)
+**You Can See The `Tracker` Live On:** [Here](https://expenses-tracker-reactjs-v1.netlify.app/)
 
 ## :rocket: Technologies used:
 
